@@ -2,6 +2,12 @@
 
 # Find the sum of all the primes below two million.
 
+
+# NOTE: This is a brute force solution that treats every odd
+# number as a potential prime candidate. It finds a solution,
+# however it is computationally expensive and requires >10 min
+# on a 2.7GHz machine. There are faster methods.
+
 def findNthPrime(a):
 
     primes = [2]
