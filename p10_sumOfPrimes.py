@@ -16,7 +16,6 @@ def findNthPrime(a):
 
     while running == 'True':
         length = len(primes)
-        print(length, primes[-1])
         if checking >= a:
             running = 'False'
         else:
