@@ -1,5 +1,5 @@
 # Project Euler problem at https://projecteuler.net/problem=20
-#
+
 factorial = 100
 
 for x in reversed(range(1,factorial)):
