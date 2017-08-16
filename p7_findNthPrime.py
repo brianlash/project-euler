@@ -1,7 +1,4 @@
-# By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see
-# that the 6th prime is 13.
-
-# What is the 10 001st prime number?
+# Project Euler problem at https://projecteuler.net/problem=7
 
 def findNthPrime(a):
 
@@ -26,5 +23,5 @@ def findNthPrime(a):
 
     print(primes[-1])
 
-a = 10001
+a = int(input('Which prime? '))
 findNthPrime(a)
