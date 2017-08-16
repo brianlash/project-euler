@@ -1,5 +1,4 @@
-# This is a companion script to accompany the longest Collatz script. It takes
-# the solution to that problem, and prints it to the command line.
+# Project Euler problem at https://projecteuler.net/problem=14
 
 import time
 
